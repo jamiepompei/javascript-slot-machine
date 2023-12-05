@@ -19,7 +19,7 @@ const SYMBOL_VALUES = {
     D: 2
 }
 /**
- * This function prompts a user for their deposit amount and validates the input. If the input is NaN or is negative, it is invalid and they are prompted to enter a deposite amount until a valid amount is entered. 
+ * This function prompts a user for their deposit amount and validates the input. If the input is NaN or is negative, it is invalid and they are prompted to enter a deposit amount until a valid amount is entered. 
  * 
  * @returns 
  */
