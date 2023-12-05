@@ -188,7 +188,7 @@ const getWinnings = (rows, bet, lines) => {
  * 10. If the user still has money, prompt them to play again or exit the game. 
  */
 const game = () => {
-    console.log("Welcome to the game! May the odds be in your favor.");
+    console.log("Welcome to the slot machine game! May the odds be in your favor.");
     let balance = deposit();
     while (true) {
         console.log("You have a balance of $" + balance);
@@ -202,10 +202,10 @@ const game = () => {
         balance += winnings;
         console.log("You won, $" + winnings.toString());
         if(balance == 0){
-            console.log("You ran out of money! Game over.");
+            console.log("You ran out of money! Game over. Better luck next time!");
             break;
         }
-        const playAgain = prompt("Do you want to play again? (y/n)");
+        const playAgain = prompt("Do you want to play again? (y/n) ");
         if (playAgain != "y") {
             console.log("Thanks for playing!");
             break;
