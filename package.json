@@ -1,0 +1,22 @@
+{
+  "name": "javascript-slot-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiepompei/javascript-slot-machine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamiepompei/javascript-slot-machine/issues"
+  },
+  "homepage": "https://github.com/jamiepompei/javascript-slot-machine#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
